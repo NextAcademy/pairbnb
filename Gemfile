@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add figaro gem (keeps configuration and sensitive info out of Git)
+gem "figaro"
 #Add OmniAuth
 gem 'omniauth'
 # Add OmniAuth Facebook 
