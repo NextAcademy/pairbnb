@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#Add OmniAuth
+gem 'omniauth'
+# Add OmniAuth Facebook 
+gem 'omniauth-facebook'
 # Add Clearence (Rails Authentication with email & password) gem
 gem 'clearance'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
