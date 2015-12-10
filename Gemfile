@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# Add Clearence (Rails Authentication with email & password) gem
+gem 'clearance'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
