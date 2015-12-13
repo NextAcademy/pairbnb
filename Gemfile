@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add Simple Form
+gem 'simple_form'
 # Twitter Bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Add figaro gem (keeps configuration and sensitive info out of Git)
