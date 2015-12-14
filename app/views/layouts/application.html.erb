@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+
+<%=render 'layouts/header'  %>
+
 <head>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tag %>
@@ -25,7 +28,10 @@
     <% end %>
   </div>
 
-  <%= yield %>
+
+  <div class="container">
+  	<%= yield %>
+  </div>
 
   <button onclick="goBack()">Go Back</button>
 
