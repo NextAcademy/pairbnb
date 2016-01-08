@@ -53,4 +53,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  Rails.application.routes.draw do
+    #some other routes
+    resources :users, only: [:new]
+  end
+
 end
